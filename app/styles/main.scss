@@ -1,0 +1,14 @@
+@import 'vars';
+@import 'typography';
+@import '../js/controllers/Header/styles/Header.scss';
+@import '../js/controllers/Footer/styles/Footer.scss';
+@import '../js/controllers/HomePage/styles/HomePage.scss';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: $font-color--dark;
+  background: url(../images/bg.jpg) #1a313f repeat-x left top;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}

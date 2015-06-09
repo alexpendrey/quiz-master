@@ -1,0 +1,27 @@
+<div ng-controller="AlertDemoCtrl">
+
+    <div class="col-md-2 text-center">
+    </div>
+    <div class="col-md-8 text-center">
+        <div class="jumbotron animate-show" id="question-pane" ng-show="!answer">
+            <h1 class="mainText">{{questionText}}</h1>
+            <button type="button" class="btn btn-success btn-lg"
+                    ng-click="showAnswer()">Answer</button>
+        </div>
+
+
+        <div class="jumbotron animate-show" id="answer-pane" ng-show="answer">
+            <h1 class="mainText">{{answerText}}</h1>
+            <button type="button" class="btn btn-primary btn-lg"
+                    ng-click="showNextQuestion()">Next</button>
+        </div>
+
+    </div>
+    <div class="col-md-2 text-center">
+    </div>
+
+
+
+
+
+</div>
